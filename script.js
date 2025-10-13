@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             clearTimeout(clickTimer);
             clickTimer = setTimeout(() => { clickCount = 0; }, 100000000);
 
-            if (clickCount === 7) {
+            if (clickCount === 3) {
                 clickCount = 0;
                 document.body.classList.toggle('video-active');
                 if (document.body.classList.contains('video-active')) {
@@ -70,3 +70,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+
